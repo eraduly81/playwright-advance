@@ -1,0 +1,32 @@
+# Playwright-generated files
+node_modules/
+/dist/
+.playwright/
+playwright-report/
+test-results/
+
+# Dependency directories
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.idea/
+.vscode/
+*.iml
+
+# Other temporary/cache files
+*.log
+*.aux
+*.bak
+*.tmp
+
+# Test-specific data
+/test/data/*
+!/test/data/seed.sql  # Example: keep seed data
+
+
